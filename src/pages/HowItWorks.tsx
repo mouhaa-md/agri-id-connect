@@ -55,7 +55,7 @@ export default function HowItWorks() {
         <div className="text-center mb-16 max-w-2xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">How Agri-ID Works</h1>
           <p className="text-lg text-muted-foreground">
-            From enrollment to service delivery — a seamless journey designed for rural contexts across West Africa.
+            From enrollment to service delivery, a seamless journey designed for rural contexts across Africa.
           </p>
         </div>
 

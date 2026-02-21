@@ -21,7 +21,7 @@ export default function FarmerHome() {
             </div>
             <div>
               <p className="text-xs font-bold tracking-wider opacity-80">AGRI-ID</p>
-              <p className="text-[10px] opacity-60">Digital Farmer Identity — Senegal</p>
+              <p className="text-[10px] opacity-60">Digital Farmer Identity</p>
             </div>
           </div>
 
