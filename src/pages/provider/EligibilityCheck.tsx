@@ -83,7 +83,7 @@ export default function EligibilityCheck() {
                   </p>
                   <p className="text-sm text-muted-foreground">
                     {decision === "eligible" ? "Farmer meets all criteria for Microcredit Agricole" :
-                     decision === "review" ? "Farmer identity verification pending — manual review required" :
+                     decision === "review" ? "Farmer identity verification pending, manual review required" :
                      "Farmer does not meet minimum requirements"}
                   </p>
                 </div>
@@ -113,7 +113,7 @@ export default function EligibilityCheck() {
                   <div className="flex justify-between py-2 border-b">
                     <span className="text-muted-foreground">Land Size Band</span>
                     <span className="font-medium">
-                      {result.landSizeHa < 2 ? "Small (< 2 ha)" : result.landSizeHa < 5 ? "Medium (2–5 ha)" : "Large (> 5 ha)"}
+                      {result.landSizeHa < 2 ? "Small (< 2 ha)" : result.landSizeHa < 5 ? "Medium (2-5 ha)" : "Large (> 5 ha)"}
                     </span>
                   </div>
                   <div className="flex justify-between py-2">

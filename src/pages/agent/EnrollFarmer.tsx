@@ -194,9 +194,9 @@ export default function EnrollFarmer() {
                     ["Name", `${form.firstName} ${form.lastName}`],
                     ["Gender", form.gender === "M" ? "Male" : "Female"],
                     ["Phone", form.phone],
-                    ["Region", `${form.village || "—"}, ${form.region || "—"}`],
-                    ["Crops", form.crops.join(", ") || "—"],
-                    ["Land Size", form.landSizeHa ? `${form.landSizeHa} ha` : "—"],
+                    ["Region", `${form.village || "-"}, ${form.region || "-"}`],
+                    ["Crops", form.crops.join(", ") || "-"],
+                    ["Land Size", form.landSizeHa ? `${form.landSizeHa} ha` : "-"],
                     ["Photo", form.photoUploaded ? "Captured ✓" : "Not captured"],
                     ["Biometric", form.biometric ? "Enrolled" : "Skipped (optional)"],
                   ].map(([label, value]) => (

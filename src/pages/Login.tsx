@@ -79,7 +79,7 @@ export default function Login() {
                   </div>
                   <div className="flex-1">
                     <p className="font-semibold text-sm">{config.label}</p>
-                    <p className="text-xs text-muted-foreground">{account.name} — {account.email}</p>
+                    <p className="text-xs text-muted-foreground">{account.name} · {account.email}</p>
                   </div>
                   <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center ${
                     isSelected ? "border-primary" : "border-border"

@@ -68,7 +68,7 @@ export default function ConsentCenter() {
                               <Eye className="w-3.5 h-3.5 text-muted-foreground flex-shrink-0" />
                               <div>
                                 <span className="font-medium capitalize">{scope.replace(/_/g, " ")}</span>
-                                <span className="text-muted-foreground ml-1">— {scopeDescriptions[scope]}</span>
+                                <span className="text-muted-foreground ml-1">: {scopeDescriptions[scope]}</span>
                               </div>
                             </div>
                           ))}

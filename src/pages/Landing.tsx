@@ -16,7 +16,7 @@ const steps = [
 ];
 
 const stats = [
-  { value: "2.4M+", label: "Farmers across West Africa" },
+  { value: "2.4M+", label: "Farmers across Africa" },
   { value: "98%", label: "Verification accuracy" },
   { value: "<3s", label: "Identity check time" },
   { value: "100%", label: "Farmer-owned data" },
@@ -61,16 +61,16 @@ export default function Landing() {
             animate="visible"
             variants={{ visible: { transition: { staggerChildren: 0.1 } } }}
           >
-            <motion.div variants={fadeUp} custom={0} className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/20 text-accent text-sm font-medium mb-6">
+             <motion.div variants={fadeUp} custom={0} className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/20 text-accent text-sm font-medium mb-6">
               <Globe className="w-3.5 h-3.5" />
-              Digital Identity for West Africa
+              Digital Identity for African Farmers
             </motion.div>
             <motion.h1 variants={fadeUp} custom={1} className="text-4xl md:text-6xl font-extrabold text-primary-foreground leading-tight mb-6">
               Every farmer deserves a{" "}
               <span className="text-accent">verified identity</span>
             </motion.h1>
-            <motion.p variants={fadeUp} custom={2} className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl leading-relaxed">
-              Agri-ID gives smallholder farmers a secure, portable digital identity — 
+             <motion.p variants={fadeUp} custom={2} className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl leading-relaxed">
+              Agri-ID gives smallholder farmers a secure, portable digital identity, 
               enabling access to credit, insurance, and government programs while keeping 
               farmers in full control of their data.
             </motion.p>
@@ -85,8 +85,8 @@ export default function Landing() {
               </Button>
               <Button
                 size="lg"
-                variant="outline"
-                className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-semibold"
+                variant="secondary"
+                className="font-semibold"
                 onClick={() => navigate("/demo")}
               >
                 View Guided Demo
@@ -123,7 +123,7 @@ export default function Landing() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">How Agri-ID Works</h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              A simple, four-step process designed for rural contexts — works on smartphones and basic phones alike.
+              A simple, four-step process designed for rural contexts. Works on smartphones and basic phones alike.
             </p>
           </div>
           <div className="grid md:grid-cols-4 gap-8">
@@ -156,7 +156,7 @@ export default function Landing() {
             <Shield className="w-12 h-12 text-primary mx-auto mb-6" />
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Farmer-Owned Data</h2>
             <p className="text-muted-foreground text-lg mb-8">
-              No data is shared without explicit farmer consent. Every access is logged, 
+             No data is shared without explicit farmer consent. Every access is logged, 
               every permission is revocable, and only the minimum necessary data is disclosed.
             </p>
             <div className="grid sm:grid-cols-3 gap-6 text-left">
@@ -203,7 +203,7 @@ export default function Landing() {
                 <span className="font-bold text-lg">Agri-ID</span>
               </div>
               <p className="text-sm text-muted-foreground max-w-xs">
-                Digital identity infrastructure for smallholder farmers. Built for West Africa, designed for scale.
+                Digital identity infrastructure for smallholder farmers. Built for Africa, designed for scale.
               </p>
             </div>
             <div className="flex gap-12 text-sm">

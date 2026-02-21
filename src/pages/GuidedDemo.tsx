@@ -22,7 +22,7 @@ const demoSteps = [
   },
   {
     title: "Bank verifies eligibility",
-    description: "The bank uses minimal disclosure to check the farmer's eligibility for microcredit — only seeing what's necessary.",
+    description: "The bank uses minimal disclosure to check the farmer's eligibility for microcredit, only seeing what is necessary.",
     role: "provider" as const,
     name: "Banque Agricole",
     target: "/provider/eligibility",
